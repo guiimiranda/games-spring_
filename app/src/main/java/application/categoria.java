@@ -19,7 +19,38 @@ public class categorias{
     @Column (unique = true , nullable = false )
     private String nome;
 
-publicvo ld setIDd(long Id)
-}public long getId() {
+@OneToMany(mappedBy = "categoria")
+private Set <Jogo> jogos= new Hashset<>();
+
+public long getId() {
     return id;
 }
+
+public void setId(long Id){
+    public long getId() 
+    return id;
+}
+public void setid(long Id) {
+        this.Id = Id;
+}
+
+public String setNome(String nome) {
+        this.nome = nome; }
+
+public Set <Jogo> getJogos() {
+    return jogos;
+}
+
+public void SetJogos(Set<Jogos>jogos) {
+    this.jogos = jogos;
+}
+
+
+
+
+
+
+
+
+
+
