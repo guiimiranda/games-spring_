@@ -36,3 +36,12 @@ public void setNome (String nome) {
     this.nome = nome;
 }
 
+public Set <Jogo> getJogos() {
+    return jogos;
+}
+
+public void setJogos(Set<Jogo> jogos) {
+    this.jogos = jogos;
+}
+}
+
