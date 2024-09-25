@@ -30,5 +30,5 @@ public class CategoriaController{
     }
 
     @RequestMapping(value= "/insert", method = RequestMethod.POST)
-    public string 
+    public String 
 }
