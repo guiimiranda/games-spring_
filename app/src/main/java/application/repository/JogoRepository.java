@@ -1,9 +1,9 @@
 package application.repository;
 
-import org.stringframework.data.repository.CrudRepository ;
+import org.springframework.data.repository.CrudRepository;
 
-import  application.model.Categoria;
+import application.model.Jogo;
 
-public interface CategorioRepository extends CrudRepository<Jogo,Long>{
+public interface JogoRepository extends CrudRepository<Jogo, Long> {
 
 }
